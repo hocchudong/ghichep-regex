@@ -41,7 +41,7 @@ Ví dụ : <img src="http://i.imgur.com/TwadzCF.png">
 
 Kết quả trả về là *Match* vì chuỗi trong pattern và subject trùng khớp. 
 
-<img src="http://i.imgur.com/ZL9AAYO.png:>
+<img src="http://i.imgur.com/ZL9AAYO.png">
 
 Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm những ký tự khác.
 
