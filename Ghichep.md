@@ -18,9 +18,11 @@ Trang tham khảo để test các regex : https://regex101.com/
 
 ####1. Khai báo chuỗi RegEx
  Để khai báo một chuỗi Regular Expression ta chỉ cần khai báo bắt đầu bằng ký tự / và kết thúc cũng là ký tự /.
+ 
   Ví dụ: 
-    pattern = '/abc/';
-    subject = 'abc';
+  pattern = '/abc/';
+  subject = 'abc';
+  
     Khi test chuỗi thì có kết quả như sau : <img src="http://i.imgur.com/qQlwUQj.png">
     
 Trong ví dụ này, pattern = `'abc'` có ý nghĩa là tìm xem trong chuỗi subject này có chuỗi `abc` hay không, ta thấy kết quả khi test,mũi tên số 3 trả về kết quả là *Match* , bởi vì chuỗi subject='abc'
