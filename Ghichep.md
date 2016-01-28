@@ -25,7 +25,10 @@ pattern = '/abc/';
  
 subject = 'abc';
 
-Khi test chuỗi thì có kết quả như sau : <img src="http://i.imgur.com/qQlwUQj.png">
+Khi test chuỗi thì có kết quả như sau : <img src="http://i.imgur.com/UImXGkP.png">
 
 Trong ví dụ này, pattern = `'abc'` có ý nghĩa là tìm xem trong chuỗi subject này có chuỗi `abc` hay không, ta thấy kết quả khi test,mũi tên số 3 trả về kết quả là *Match* , bởi vì chuỗi subject='abc'
 
+Bây giờ ta sẽ đổi giá trị của subject='mabcde', kết quả test sẽ là : <img src="http://i.imgur.com/r28t9ZS.png">
+
+Kết quả ở đây vẫn là *Match* , bởi chuỗi `'mabcde'` khi chia nhỏ ra vẫn chưa chuỗi `'abc'`.
