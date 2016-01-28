@@ -31,4 +31,17 @@ Trong ví dụ này, pattern = `'abc'` có ý nghĩa là tìm xem trong chuỗi 
 
 Bây giờ ta sẽ đổi giá trị của subject='mabcde', kết quả test sẽ là : <img src="http://i.imgur.com/r28t9ZS.png">
 
-Kết quả ở đây vẫn là *Match* , bởi chuỗi `'mabcde'` khi chia nhỏ ra vẫn chưa chuỗi `'abc'`.
+Kết quả ở đây vẫn là *Match* , bởi chuỗi `'mabcde'` khi chia nhỏ ra vẫn chứa chuỗi `'abc'`.
+
+####2. Kí tự bắt đầu và kết thúc của chuỗi RegEx
+
+Khi muốn kiểm tra xem chuỗi trong pattern có trùng khớp hoàn toàn với chuỗi trong subject không, ta sẽ dùng ký tự bắt đầu `^` và ký tự kết thúc `$` đặt vào đầu và cuối chuỗi pattern.
+
+Ví dụ : <img src="http://i.imgur.com/TwadzCF.png">
+
+Kết quả trả về là *Match* vì chuỗi trong pattern và subject trùng khớp. 
+
+<img src="http://i.imgur.com/ZL9AAYO.png:>
+
+Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm những ký tự khác.
+
