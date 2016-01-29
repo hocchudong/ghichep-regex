@@ -5,6 +5,7 @@ RegEx rất hữu dụng trong việc trích dẫn thông tin từ văn bản nh
 vào nhiều service ( Graylog, Zabbix... ).
 
 Tài liệu để học về RegEx có thể tham khảo trên trang : http://regexone.com/ hoặc
+
 http://freetuts.net/cac-quy-tac-regular-expression-can-ban-65.html
 
 Trang tham khảo để test các regex : https://regex101.com/ 
@@ -16,7 +17,7 @@ Trang tham khảo để test các regex : https://regex101.com/
  
  Trong bài viết, các ví dụ đều sẽ được test trên trang: https://regex101.com/ 
 
-####1. Khai báo chuỗi RegEx
+####1. Khai báo chuỗi Regex
  Để khai báo một chuỗi Regular Expression ta chỉ cần khai báo bắt đầu bằng ký tự / và kết thúc cũng là ký tự /.
  
  Ví dụ: 
@@ -33,7 +34,7 @@ Bây giờ ta sẽ đổi giá trị của subject='mabcde', kết quả test s�
 
 Kết quả ở đây vẫn là *Match* , bởi chuỗi `'mabcde'` khi chia nhỏ ra vẫn chứa chuỗi `'abc'`.
 
-####2. Kí tự bắt đầu và kết thúc của chuỗi RegEx
+####2. Kí tự bắt đầu và kết thúc của chuỗi Regex
 
 Khi muốn kiểm tra xem chuỗi trong pattern có trùng khớp hoàn toàn với chuỗi trong subject không, ta sẽ dùng ký tự bắt đầu `^` và ký tự kết thúc `$` đặt vào đầu và cuối chuỗi pattern.
 
@@ -44,4 +45,16 @@ Kết quả trả về là *Match* vì chuỗi trong pattern và subject trùng 
 Ví dụ 2: <img src="http://i.imgur.com/ZL9AAYO.png">
 
 Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm những ký tự khác.
+
+#####3. Regex phạm vi của chuỗi
+
+  Regex kiểm tra chữ cái in thường : <img src="http://i.imgur.com/mk29XdZ.png">
+  
+  Regex kiểm tra chữ cái in hoa : <img src="http://i.imgur.com/exTIDyY.png">
+  
+   Khi thay chuỗi test string bằng chữ in hoa, kết quả trả về sẽ là : <img src="http://i.imgur.com/exTIDyY.png">
+  
+  Regex kiểm tra một ký tự là chữ số : <img src="http://i.imgur.com/80g4xwk.png">
+
+
 
