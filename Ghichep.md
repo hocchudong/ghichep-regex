@@ -85,9 +85,15 @@ Pattern này sẽ match với subject='1s#5c' vì chuỗi `1s#5c'` có độ dà
 
 Tất cả các ký tự như : `.`, `[]`, `{}`...những ký tự liên quan đến quy tắc của Regex đều được quy về dạng ký tự đặc biệt trong Regex, vì vậy để phân biệt giữa ký tự đặc biệt trong Regex và ký tự bình thường thì ta thêm dấu `\` vào đầu ký tự đó.
 
-Ví dụ, khi kiểm tra xem có dấu `.` ở trong subject='demo', nếu ta kiểm tra như sau : <img src="http://i.imgur.com/MeVYA6f.png">
+Ví dụ, khi kiểm tra trong subject='demo' có xuất hiện dấu `.` hay không?, nếu ta kiểm tra như sau : <img src="http://i.imgur.com/MeVYA6f.png">
 
 Kết quả trả về là `Match`, tuy nhiên như vậy không đúng bởi trong chuỗi subject='demo' không hề có dấu `.` nào cả, pattern đang bị hiểu nhầm dấu `.` tương đương với ký tự `d`. Biểu thức pattern đúng phải là như sau : <img src="http://i.imgur.com/vCtVAHB.png">
+
+####7. Regex A hoặc B
+
+Khi cần kiểm tra subject='A' hoặc subject='B' thì ta cần dùng dấu `|`, biểu diễn mối quan hệ `OR`
+
+
 
 
 
