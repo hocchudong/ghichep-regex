@@ -100,7 +100,7 @@ Khi muốn gom nhóm Regex lại cho dễ nhìn, ta để pattern như sau : pat
 
 Sử dụng các ký tự `*`, `+`, `?` để thiết lập chiều dài cho chuỗi.
 
-*Ký tự `*` *
+*Ký tự`*`*
 
 
 
