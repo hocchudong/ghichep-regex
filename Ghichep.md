@@ -48,13 +48,38 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
 
 #####3. Regex phạm vi của chuỗi
 
-  Regex kiểm tra chữ cái in thường : <img src="http://i.imgur.com/mk29XdZ.png">
+  *Regex kiểm tra chữ cái in thường* : <img src="http://i.imgur.com/mk29XdZ.png">
   
-  Regex kiểm tra chữ cái in hoa : <img src="http://i.imgur.com/exTIDyY.png">
+  *Regex kiểm tra chữ cái in hoa* : <img src="http://i.imgur.com/exTIDyY.png">
   
    Khi thay chuỗi test string bằng chữ in hoa, kết quả trả về sẽ là : <img src="http://i.imgur.com/exTIDyY.png">
   
-  Regex kiểm tra một ký tự là chữ số : <img src="http://i.imgur.com/80g4xwk.png">
+  *Regex kiểm tra một ký tự là chữ số* : <img src="http://i.imgur.com/80g4xwk.png">
+  
+  *Regex kiểm một chữ cái in hoa hoặc in thường* : <img src="http://i.imgur.com/ERwSx6S.png">
+  
+  *Regex kiểm tra một ký tự là số, chữ cái in hoa hoặc thường* : <img src="http://i.imgur.com/nKhBbUn.png">
+  
+  *Regex kiểm tra ký tự có nằm trong dãy hay không* : <img src="http://i.imgur.com/DhkxgNN.png">
+  
+  Trong chuỗi subject, có một ký tự `"2"` nên kết quả trả về là `"Match"`
+  
+####4. Xác định chiều dài của chuỗi Regex
+ *Regex kiểm tra chữ cái thường dài 5-10 ký tự* : <img src="http://i.imgur.com/fSr3fBF.png">
+ 
+ Chuỗi subject='abcdef' đều là có các chữ cái in thường và có độ dài bằng 6 nên kết quả trả về sẽ là `"Match"`
+ 
+ *Regex kiểm tra chuỗi có độ dài chính xác
+ 
+ Cách 1 : <img src="http://i.imgur.com/cWVfGSN.png">
+ 
+ Cách 2 : <img src="http://i.imgur.com/dNTPmEy.png">
+
+####5. Regex đại diện cho một ký tự
+
+Ký tự `"."` sẽ chấp nhận bất cứ ký tự nào,ví dụ : <img src="http://i.imgur.com/gGczvju.png">
+
+Pattern này sẽ match với tất cả các subject có độ dài là 5. 
 
 
 
