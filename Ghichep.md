@@ -103,6 +103,12 @@ Sử dụng các ký tự `*`, `+`, `?` để thiết lập chiều dài cho chu
 <li>Ký tự`*`</li>
 Dấu `*` đại diện cho không hoặc nhiều ký tự, <img src="http://i.imgur.com/zOc8llE.png">
 Chuỗi pattern này sẽ chỉ lọc những ký tự chữ cái thường của subject
+<li>Ký tự`+`</li>
+Dấu `+` đại diện cho một hoặc nhiều ký tự, <img src="http://i.imgur.com/kT46NnL.png">
+Chuỗi pattern này cũng sẽ lọc tất cả những chữ cái thường của subject
+<li>Ký tự `?` </li>
+Dấu `?` đại diện cho một hoặc không có ký tự nào, <img src="http://i.imgur.com/Ri9zWZk.png">
+Chuỗi pattern sẽ chỉ lọc ký tự thường ở đầu tiên, kết quả trả về là `Match`, hoặc kết quả trả về vẫn là `Match` nếu không có ký tự thường nào ở chuỗi subject, như hình sau : <img src="http://i.imgur.com/tqOt54c.png">
 
 
 
