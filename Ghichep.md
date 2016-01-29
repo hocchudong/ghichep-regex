@@ -100,7 +100,14 @@ Khi muốn gom nhóm Regex lại cho dễ nhìn, ta để pattern như sau : pat
 
 Sử dụng các ký tự `*`, `+`, `?` để thiết lập chiều dài cho chuỗi.
 
-*Ký tự`*`*
+<li>Ký tự`*`</li>
+Dấu `*` đại diện cho không hoặc nhiều ký tự, <img src="http://i.imgur.com/zOc8llE.png">
+
+Chuỗi pattern này sẽ chỉ lọc những ký tự chữ cái thường của subject
+
+
+
+
 
 
 
