@@ -94,9 +94,13 @@ Kết quả trả về là `Match`, tuy nhiên như vậy không đúng bởi tr
 Khi cần kiểm tra subject='A' hoặc subject='B' thì ta cần dùng dấu `|`, biểu diễn mối quan hệ `OR`
 <img src="http://i.imgur.com/1mEj6zW.png">
 
-Khi muốn gom nhóm Regex lại cho dễ nhìn, ta để pattern như sau : pattern="(A|B)" . Regex này có ý nghĩa là ta gom nhóm A hoặc nhóm B lại thành 1 nhóm : <img src="http://i.imgur.com/vbnw0tR.png">
+Khi muốn gom nhóm Regex lại cho dễ nhìn, ta để pattern như sau : pattern="(A|B)" . Regex này có ý nghĩa là ta gom nhóm A hoặc nhóm B lại thành 1 nhóm : <img src="http://i.imgur.com/C0kNfUz.png">
 
+####8.  Regex kiểm tra chiều dài không giới hạn
 
+Sử dụng các ký tự `*`, `+`, `?` để thiết lập chiều dài cho chuỗi.
+
+*Ký tự `*` *
 
 
 
