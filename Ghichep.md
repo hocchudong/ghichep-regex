@@ -102,7 +102,6 @@ Sử dụng các ký tự `*`, `+`, `?` để thiết lập chiều dài cho chu
 
 <li>Ký tự`*`</li>
 Dấu `*` đại diện cho không hoặc nhiều ký tự, <img src="http://i.imgur.com/zOc8llE.png">
-
 Chuỗi pattern này sẽ chỉ lọc những ký tự chữ cái thường của subject
 
 
