@@ -110,9 +110,30 @@ Chuỗi pattern này cũng sẽ lọc tất cả những chữ cái thường c�
 Dấu `?` đại diện cho một hoặc không có ký tự nào, <img src="http://i.imgur.com/Ri9zWZk.png">
 Chuỗi pattern sẽ chỉ lọc ký tự thường ở đầu tiên, kết quả trả về là `Match`, hoặc kết quả trả về vẫn là `Match` nếu không có ký tự thường nào ở chuỗi subject, như hình sau : <img src="http://i.imgur.com/tqOt54c.png">
 
+####9. Regex phủ định - NOT
+Ta dùng ký tự `^` để phủ định một Regex : <img src="http://i.imgur.com/73VbYcu.png">
+Kết quả sẽ match với những ký tự không phải là số trong 2 ký tự của chuỗi subject.
 
+*Các ký tự Regex đặc biệt:*
 
+ - \d - Chữ số bất kỳ ~ [0-9]
+ - \D - Ký tự bất kỳ không phải là chữ số (ngược với \d) ~ [^0-9]
+ - \w - Ký tự từ a-z, A-Z, hoặc 0-9 ~ [a-zA-Z0-9]
+ - \W - Ngược lại với \w (nghĩa là các ký tự không thuộc các khoảng: a-z, A-Z, hoặc 0-9) ~[^a-zA-Z0-9]
+ - \s - Khoảng trắng (space)
+ - \S - Ký tự bất kỳ không phải là khoảng trắng.
+####10. Capturing value trong Regex
 
+Caturing value, hiểu đơn giản là các bắt các giá trị muốn có một subject, ví dụ như ta có chuỗi pattern="([a-z]+)([0-9]+)" 
+<img src="http://i.imgur.com/8JB7spj.png"> 
 
+Pattern này sẽ có 3 phần : 
+ - Phần 1 : ([a-z]+)([0-9]+) sẽ bắt tất cả dòng `manhdv1994`
+ - Phần 2 : ([a-z]+) sẽ bắt tất cả các ký tự chữ cái thường.
+ - Phần 3 : ([0-9]+) sẽ bắt cả các số đằng sau các chữ cái thường.
+####11. Greedy trong Regex
 
+Trước khi có một định nghĩa về Greedy, tôi sẽ lấy một ví dụ sau về việc tìm chuỗi bắt đầu bằng `h` và kết thúc bằng `o`
+<img src="http://i.imgur.com/akD4IWH.png">
 
+Ý tưởng ban đầu của regex này sẽ là lấy được cụm `ell` ở trong từ `hello`, tuy nhiên ở chữ `chao` lại có 1 ký tự `o`, nên chuỗi regex sẽ hiểu là lấy chuỗi bắt đầu bằng `h` của hello, và kết thúc bằng `o` của `chao`, muốn chỉ lấy được từ `ell` ta phải đặt chuỗi pattern như sau : <img src="http://i.imgur.com/gmYBPdD.png">
