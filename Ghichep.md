@@ -122,6 +122,7 @@ Kết quả sẽ match với những ký tự không phải là số trong 2 ký
  - \W - Ngược lại với \w (nghĩa là các ký tự không thuộc các khoảng: a-z, A-Z, hoặc 0-9) ~[^a-zA-Z0-9]
  - \s - Khoảng trắng (space)
  - \S - Ký tự bất kỳ không phải là khoảng trắng.
+
 ####10. Capturing value trong Regex
 
 Caturing value, hiểu đơn giản là các bắt các giá trị muốn có một subject, ví dụ như ta có chuỗi pattern="([a-z]+)([0-9]+)" 
