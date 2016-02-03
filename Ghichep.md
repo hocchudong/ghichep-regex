@@ -2,6 +2,9 @@
 ####[1. Khai báo chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#1-khai-báo-chuỗi-regex-1)
 ####[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#2-kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex-1)
 ####[3. Regex phạm vi của chuỗi](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#3-regex-phạm-vi-của-chuỗi-1)
+####[4. Xác định chiều dài của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#4-xác-định-chiều-dài-của-chuỗi-regex)
+####[5. Regex đại diện cho một ký tự](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#5-regex-đại-diện-cho-một-ký-tự)
+####[]
 ## Giới thiệu chung
 Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
