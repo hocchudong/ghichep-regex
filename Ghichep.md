@@ -61,17 +61,17 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
 
 ####3. Regex phạm vi của chuỗi
 
-  <li>Regex kiểm tra chữ cái in thường</li> : <img src="http://i.imgur.com/mk29XdZ.png">
+  <li>Regex kiểm tra chữ cái in thường:</li> <img src="http://i.imgur.com/mk29XdZ.png">
   
-  <li>Regex kiểm tra chữ cái in hoa</li> : <img src="http://i.imgur.com/exTIDyY.png">
+  <li>Regex kiểm tra chữ cái in hoa:</li> <img src="http://i.imgur.com/exTIDyY.png">
   
    Khi thay chuỗi test string bằng chữ in hoa, kết quả trả về sẽ là : <img src="http://i.imgur.com/exTIDyY.png">
   
-  <li>Regex kiểm tra một ký tự là chữ số</li> : <img src="http://i.imgur.com/80g4xwk.png">
+  <li>Regex kiểm tra một ký tự là chữ số: </li> <img src="http://i.imgur.com/80g4xwk.png">
   
-  <li>Regex kiểm một chữ cái in hoa hoặc in thường</li> : <img src="http://i.imgur.com/ERwSx6S.png">
+  <li>Regex kiểm một chữ cái in hoa hoặc in thường:</li>  <img src="http://i.imgur.com/ERwSx6S.png">
   
-  <li>Regex kiểm tra một ký tự là số, chữ cái in hoa hoặc thường</li> : <img src="http://i.imgur.com/nKhBbUn.png">
+  <li>Regex kiểm tra một ký tự là số, chữ cái in hoa hoặc thường:</li>  <img src="http://i.imgur.com/nKhBbUn.png">
   
   Trong chuỗi subject, có một ký tự `"2"` nên kết quả trả về là `"Match"`
   
