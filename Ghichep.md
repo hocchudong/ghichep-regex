@@ -1,4 +1,5 @@
-#Mục lục
+#Một số ghi chép chung về các quy tắc về Regex và ví dụ.
+##Mục lục
 ####[1. Khai báo chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#1-khai-báo-chuỗi-regex-1)
 ####[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#2-kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex-1)
 ####[3. Regex phạm vi của chuỗi](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#3-regex-phạm-vi-của-chuỗi-1)
