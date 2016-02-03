@@ -1,4 +1,7 @@
-##I. Giới thiệu chung
+#Mục lục
+[1. Khai báo chuỗi Regex](####1. Khai báo chuỗi Regex)
+
+## Giới thiệu chung
 Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. Ngoài cái tên gọi Regular Expression ra thì nó còn có thể viết tắt thành RegEx.
 
 RegEx rất hữu dụng trong việc trích dẫn thông tin từ văn bản như là code, logs file,... và được ứng dụng
@@ -154,7 +157,7 @@ Pattern này sẽ có 3 phần :
 Ví dụ khi ta muốn bắt 2 nhóm như trong hình, pattern sẽ là : <img src="http://i.imgur.com/ZWlxqcY.png">
  
 Ví dụ 2 : Khi ta chỉ muốn bắt phần tên của file, pattern sẽ là : <img src="http://i.imgur.com/thIxT7B.png">
-####11. Greedy trong Regex
+####10. Greedy trong Regex
 
 Trước khi có một định nghĩa về Greedy, tôi sẽ lấy một ví dụ sau về việc tìm chuỗi bắt đầu bằng `h` và kết thúc bằng `o`
 <img src="http://i.imgur.com/akD4IWH.png">
