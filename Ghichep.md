@@ -2,9 +2,9 @@
 ####[1. Khai báo chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#1-khai-báo-chuỗi-regex-1)
 ####[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#2-kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex-1)
 ####[3. Regex phạm vi của chuỗi](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#3-regex-phạm-vi-của-chuỗi-1)
-####[4. Xác định chiều dài của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#4-xác-định-chiều-dài-của-chuỗi-regex)
-####[5. Regex đại diện cho một ký tự](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#5-regex-đại-diện-cho-một-ký-tự)
-####[]
+####[4. Xác định chiều dài của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#4-xác-định-chiều-dài-của-chuỗi-regex-1)
+####[5. Regex đại diện cho một ký tự](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#5-regex-đại-diện-cho-một-ký-tự-1)
+####[6. Ký tự đặc biệt cho các từ khóa Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#6-ký-tự-đặc-biệt-cho-các-từ-khóa-regex)
 ## Giới thiệu chung
 Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
@@ -79,7 +79,6 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
   Ví dụ : Khi ta muốn Match với 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại, thì pattern sẽ là : <img src="http://i.imgur.com/0XHuq2y.png"> hoặc <img src="http://i.imgur.com/rtI25iB.png">
   
 ####4. Xác định chiều dài của chuỗi Regex
-
  *Regex kiểm tra chữ cái thường dài 5-10 ký tự* : <img src="http://i.imgur.com/fSr3fBF.png">
  
  Chuỗi subject='abcdef' đều là có các chữ cái in thường và có độ dài bằng 6 nên kết quả trả về sẽ là `"Match"`
@@ -98,7 +97,7 @@ Ký tự `"."` sẽ chấp nhận bất cứ ký tự nào,ví dụ : <img src="
 
 Pattern này sẽ match với subject='1s#5c' vì chuỗi `1s#5c'` có độ dài bằng 5
 
-####6. Ký tự đặc biệt cho các từ khóa Regex 
+####6. Ký tự đặc biệt cho các từ khóa Regex
 
 Tất cả các ký tự như : `.`, `[]`, `{}`...những ký tự liên quan đến quy tắc của Regex đều được quy về dạng ký tự đặc biệt trong Regex, vì vậy để phân biệt giữa ký tự đặc biệt trong Regex và ký tự bình thường thì ta thêm dấu `\` vào đầu ký tự đó.
 
