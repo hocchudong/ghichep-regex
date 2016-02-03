@@ -81,6 +81,8 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
  Cách 1 : <img src="http://i.imgur.com/cWVfGSN.png">
  
  Cách 2 : <img src="http://i.imgur.com/dNTPmEy.png">
+ 
+ Ví dụ : Khi muốn Match với 2 từ trong ô vuông đỏ và bỏ qua từ còn lại, pattern sẽ là : <img src="http://i.imgur.com/IV97Kss.png">
 
 ####5. Regex đại diện cho một ký tự
 
@@ -113,22 +115,26 @@ Chuỗi pattern này sẽ chỉ lọc những ký tự chữ cái thường củ
 <li>Ký tự`+`</li>
 Dấu `+` đại diện cho một hoặc nhiều ký tự, <img src="http://i.imgur.com/kT46NnL.png">
 Chuỗi pattern này cũng sẽ lọc tất cả những chữ cái thường của subject
+
+Ví dụ : Khi muốn Match với 3 từ trong ô vuông đỏ và bỏ qua từ cuối cùng, pattern sẽ là : <img src="http://i.imgur.com/IhDbpPy.png">
+
+Phân tích pattern : 
+ - `aa+` : Các từ được Match phải có ít nhất 2 ký tự `a` trở lên => Mẫu cuối chỉ có 1 ký tự `a` nên không thỏa mãn
+ - `b*`  : Không có hoặc có nhiều hơn 1 ký tự `b` , nên mẫu thứ 3 tuy không có ký tự `b` nào nhưng vẫn thỏa mãn pattern
+ - `c+`  : Có một hoặc nhiều hơn một ký tự `c`
 <li>Ký tự `?` </li>
 Dấu `?` đại diện cho một hoặc không có ký tự nào, <img src="http://i.imgur.com/Ri9zWZk.png">
-Chuỗi pattern sẽ chỉ lọc ký tự thường ở đầu tiên, kết quả trả về là `Match`, hoặc kết quả trả về vẫn là `Match` nếu không có ký tự thường nào ở chuỗi subject, như hình sau : <img src="http://i.imgur.com/tqOt54c.png">
+
+Ví dụ : Khi muốn Match với 3 từ trong ô vuông đỏ và bỏ qua từ cuối cùng, pattern sẽ là : <img src="http://i.imgur.com/BjODc7m.png">
+
+Phân tích pattern : 
+ - `\d+ `    : Sẽ match với các chữ số ở đầu và ký tự khoảng trống ` `
+ - `files? ` : Sẽ match với từ `file` với một hoặc không có ký tự `s` và ký tự khoảng trống ` `
+ - `found\?`  : Sẽ match với từ `found` và ký tự `?`, bởi ký tự `?` sẽ bị hiểu như một ký tự đặc biệt của regex nên ta phải thêm `\` ở đằng trước để tránh bị regex hiểu nhầm
 
 ####9. Regex phủ định - NOT
 Ta dùng ký tự `^` để phủ định một Regex : <img src="http://i.imgur.com/73VbYcu.png">
 Kết quả sẽ match với những ký tự không phải là số trong 2 ký tự của chuỗi subject.
-
-*Các ký tự Regex đặc biệt:*
-
- - \d - Chữ số bất kỳ ~ [0-9]
- - \D - Ký tự bất kỳ không phải là chữ số (ngược với \d) ~ [^0-9]
- - \w - Ký tự từ a-z, A-Z, hoặc 0-9 ~ [a-zA-Z0-9]
- - \W - Ngược lại với \w (nghĩa là các ký tự không thuộc các khoảng: a-z, A-Z, hoặc 0-9) ~[^a-zA-Z0-9]
- - \s - Khoảng trắng (space)
- - \S - Ký tự bất kỳ không phải là khoảng trắng.
 
 ####10. Capturing value trong Regex
 
