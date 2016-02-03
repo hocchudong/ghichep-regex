@@ -79,6 +79,7 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
   Ví dụ : Khi ta muốn Match với 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại, thì pattern sẽ là : <img src="http://i.imgur.com/0XHuq2y.png"> hoặc <img src="http://i.imgur.com/rtI25iB.png">
   
 ####4. Xác định chiều dài của chuỗi Regex
+
  *Regex kiểm tra chữ cái thường dài 5-10 ký tự* : <img src="http://i.imgur.com/fSr3fBF.png">
  
  Chuỗi subject='abcdef' đều là có các chữ cái in thường và có độ dài bằng 6 nên kết quả trả về sẽ là `"Match"`
