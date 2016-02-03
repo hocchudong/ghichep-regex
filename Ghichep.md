@@ -1,6 +1,6 @@
 #Mục lục
 ####[1. Khai báo chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#1-khai-báo-chuỗi-regex)
-
+####[2. Kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#2-kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex)
 ## Giới thiệu chung
 Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. Ngoài cái tên gọi Regular Expression ra thì nó còn có thể viết tắt thành RegEx.
 
