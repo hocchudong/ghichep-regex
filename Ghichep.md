@@ -1,16 +1,16 @@
 #Một số ghi chép chung về các quy tắc của Regex và ví dụ.
 ###Mục lục
 [1. Khai báo chuỗi Regex](#1)
-[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#2-kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex-1)
-####[3. Regex phạm vi của chuỗi](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#3-regex-phạm-vi-của-chuỗi-1)
-####[4. Xác định chiều dài của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#4-xác-định-chiều-dài-của-chuỗi-regex-1)
-####[5. Regex đại diện cho một ký tự](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#5-regex-đại-diện-cho-một-ký-tự-1)
-####[6. Ký tự đặc biệt cho các từ khóa Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#6-ký-tự-đặc-biệt-cho-các-từ-khóa-regex-1)
-####[7. Regex A hoặc B](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#7-regex-a-hoặc-b-1)
-####[8.  Regex kiểm tra chiều dài không giới hạn](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#8--regex-kiểm-tra-chiều-dài-không-giới-hạn-1)
-####[9. Capturing value trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#9-capturing-value-trong-regex-1)
-####[10. Greedy trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#10-greedy-trong-regex-1)
-####[11. Một số ví dụ về áp dụng Regex vào Graylog](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#11-một-số-ví-dụ-về-áp-dụng-regex-vào-graylog-1)
+[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](#2)
+[3. Regex phạm vi của chuỗi](#3)
+[4. Xác định chiều dài của chuỗi Regex](#4)
+[5. Regex đại diện cho một ký tự](#5)
+[6. Ký tự đặc biệt cho các từ khóa Regex](#6)
+[7. Regex A hoặc B](#7)
+[8.  Regex kiểm tra chiều dài không giới hạn](#8)
+[9. Capturing value trong Regex](#9)
+[10. Greedy trong Regex](#10)
+[11. Một số ví dụ về áp dụng Regex vào Graylog](#11)
 ## Giới thiệu chung
 Regular Expression (Regex) hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
@@ -48,6 +48,7 @@ Bây giờ ta sẽ đổi giá trị của subject='mabcde', kết quả test s�
 
 Kết quả ở đây vẫn là *Match* , bởi chuỗi `'mabcde'` khi chia nhỏ ra vẫn chứa chuỗi `'abc'`.
 
+<a name="2"></a>
 ####2. Kí tự bắt đầu và kết thúc của chuỗi Regex
 
 Khi muốn kiểm tra xem chuỗi trong pattern có trùng khớp hoàn toàn với chuỗi trong subject không, ta sẽ dùng ký tự bắt đầu `^` và ký tự kết thúc `$` đặt vào đầu và cuối chuỗi pattern.
@@ -60,6 +61,7 @@ Ví dụ 2: <img src="http://i.imgur.com/ZL9AAYO.png">
 
 Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm những ký tự khác.
 
+<a name="3"></a>
 ####3. Regex phạm vi của chuỗi
 
   <li>Regex kiểm tra chữ cái in thường:</li> <img src="http://i.imgur.com/mk29XdZ.png">
@@ -84,7 +86,8 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
    Biểu thức sẽ Match với ký tự đầu tiên không phải là các ký tự `a` `2` `b`
    
   Ví dụ : Khi ta muốn Match với 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại, thì pattern sẽ là : <img src="http://i.imgur.com/0XHuq2y.png"> hoặc <img src="http://i.imgur.com/rtI25iB.png">
-  
+ 
+<a name="4"></a> 
 ####4. Xác định chiều dài của chuỗi Regex
  *Regex kiểm tra chữ cái thường dài 5-10 ký tự* : <img src="http://i.imgur.com/fSr3fBF.png">
  
@@ -98,12 +101,14 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
  
  Ví dụ : Khi muốn Match với 2 từ trong ô vuông đỏ và bỏ qua từ còn lại, pattern sẽ là : <img src="http://i.imgur.com/IV97Kss.png">
 
+<a name="5"></a>
 ####5. Regex đại diện cho một ký tự
 
 Ký tự `"."` sẽ chấp nhận bất cứ ký tự nào,ví dụ : <img src="http://i.imgur.com/gGczvju.png">
 
 Pattern này sẽ match với subject='1s#5c' vì chuỗi `1s#5c'` có độ dài bằng 5
 
+<a name="6"></a>
 ####6. Ký tự đặc biệt cho các từ khóa Regex
 
 Tất cả các ký tự như : `.`, `[]`, `{}`...những ký tự liên quan đến quy tắc của Regex đều được quy về dạng ký tự đặc biệt trong Regex, vì vậy để phân biệt giữa ký tự đặc biệt trong Regex và ký tự bình thường thì ta thêm dấu `\` vào đầu ký tự đó.
@@ -112,11 +117,14 @@ Ví dụ, khi kiểm tra trong subject='demo' có xuất hiện dấu `.` hay kh
 
 Kết quả trả về là `Match`, tuy nhiên như vậy không đúng bởi trong chuỗi subject='demo' không hề có dấu `.` nào cả, pattern đang bị hiểu nhầm dấu `.` tương đương với ký tự `d`. Biểu thức pattern đúng phải là như sau : <img src="http://i.imgur.com/vCtVAHB.png">
 
+<a name="7"></a>
 ####7. Regex A hoặc B
 
 Khi cần kiểm tra subject='A' hoặc subject='B' thì ta cần dùng dấu `|`, biểu diễn mối quan hệ `OR`
 
 Ví dụ : Khi muốn match với 2 từ tỏng ô vuông đỏ, và bỏ qua các từ còn lại, pattern sẽ là : <img src="http://i.imgur.com/BrGwkeR.png">
+
+<a name="8"></a>
 ####8.  Regex kiểm tra chiều dài không giới hạn
 
 *Các ký tự Regex đặc biệt:*
@@ -153,6 +161,7 @@ Phân tích pattern :
  - `files? ` : Sẽ match với từ `file` với một hoặc không có ký tự `s` và ký tự khoảng trống ` `
  - `found\?`  : Sẽ match với từ `found` và ký tự `?`, bởi ký tự `?` sẽ bị hiểu như một ký tự đặc biệt của regex nên ta phải thêm `\` ở đằng trước để tránh bị regex hiểu nhầm
 
+<a name="9"></a>
 ####9. Capturing value trong Regex
 
 <li>Caturing value, hiểu đơn giản là các bắt các giá trị muốn có một subject.</li>
@@ -168,6 +177,8 @@ Pattern này sẽ có 3 phần :
 Ví dụ khi ta muốn bắt 2 nhóm như trong hình, pattern sẽ là : <img src="http://i.imgur.com/ZWlxqcY.png">
  
 Ví dụ 2 : Khi ta chỉ muốn bắt phần tên của file, pattern sẽ là : <img src="http://i.imgur.com/thIxT7B.png">
+
+<a name="10"></a>
 ####10. Greedy trong Regex
 
 Trước khi có một định nghĩa về Greedy, tôi sẽ lấy một ví dụ sau về việc tìm chuỗi bắt đầu bằng `h` và kết thúc bằng `o`
@@ -175,6 +186,7 @@ Trước khi có một định nghĩa về Greedy, tôi sẽ lấy một ví d�
 
 Ý tưởng ban đầu của regex này sẽ là lấy được cụm `ell` ở trong từ `hello`, tuy nhiên ở chữ `chao` lại có 1 ký tự `o`, nên chuỗi regex sẽ hiểu là lấy chuỗi bắt đầu bằng `h` của hello, và kết thúc bằng `o` của `chao`, muốn chỉ lấy được từ `ell` ta phải đặt chuỗi pattern như sau : <img src="http://i.imgur.com/gmYBPdD.png">
 
+<a name="11"></a>
 ####11. Một số ví dụ về áp dụng Regex vào Graylog
 
 *Khi muốn bắt thông tin về id=9733 của sshd như trong hình sau:*
