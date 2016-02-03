@@ -60,14 +60,16 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
   
   *Regex kiểm tra một ký tự là số, chữ cái in hoa hoặc thường* : <img src="http://i.imgur.com/nKhBbUn.png">
   
-  *Regex kiểm tra ký tự có nằm trong dãy hay không* : <img src="http://i.imgur.com/DhkxgNN.png">
-  
   Trong chuỗi subject, có một ký tự `"2"` nên kết quả trả về là `"Match"`
   
-  Ví dụ : Khi ta muốn Match với cả 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại thì pattern sẽ được viết như thế nào? 
-  <img src="http://i.imgur.com/q7VABQZ.png">
+  Ví dụ : Khi ta muốn Match với cả 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại thì pattern sẽ được viết dưới dạng như sau : <img src="http://i.imgur.com/yne1i6K.png">
   
-  Pattern cần viết sẽ có dạng như sau : <img src="http://i.imgur.com/tU8Jc0n.png">
+   *Regex kiểm tra ký tự có nằm trong dãy hay không* : <img src="http://i.imgur.com/DhkxgNN.png">
+   hoặc khi ta đặt dấu `^` ở trước chuỗi, thì regex sẽ mang tính phủ định : <img src="http://i.imgur.com/MniYaOZ.png">
+   
+   Biểu thức sẽ Match với ký tự đầu tiên không phải là các ký tự `a` `2` `b`
+   
+  Ví dụ : Khi ta muốn Match với 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại, thì pattern sẽ là : <img src="http://i.imgur.com/0XHuq2y.png"> hoặc <img src="http://i.imgur.com/rtI25iB.png">
   
 ####4. Xác định chiều dài của chuỗi Regex
  *Regex kiểm tra chữ cái thường dài 5-10 ký tự* : <img src="http://i.imgur.com/fSr3fBF.png">
