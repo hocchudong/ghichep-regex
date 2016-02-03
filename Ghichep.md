@@ -1,6 +1,6 @@
 #Một số ghi chép chung về các quy tắc của Regex và ví dụ.
 ##Mục lục
-####[1. Khai báo chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#1-khai-báo-chuỗi-regex-1)
+####[1. Khai báo chuỗi Regex](#1)
 ####[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#2-kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex-1)
 ####[3. Regex phạm vi của chuỗi](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#3-regex-phạm-vi-của-chuỗi-1)
 ####[4. Xác định chiều dài của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#4-xác-định-chiều-dài-của-chuỗi-regex-1)
@@ -30,6 +30,7 @@ Trang tham khảo để test các regex : https://regex101.com/
  
  Trong bài viết, các ví dụ đều sẽ được test trên trang: https://regex101.com/ 
 
+<a name="1"></a>
 ####1. Khai báo chuỗi Regex
  Để khai báo một chuỗi Regular Expression ta chỉ cần khai báo bắt đầu bằng ký tự / và kết thúc cũng là ký tự /.
  
