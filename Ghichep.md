@@ -1,16 +1,16 @@
 #Một số ghi chép chung về các quy tắc của Regex và ví dụ.
 ###Mục lục
-[1. Khai báo chuỗi Regex](#1)
-[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](#2)
-[3. Regex phạm vi của chuỗi](#3)
-[4. Xác định chiều dài của chuỗi Regex](#4)
-[5. Regex đại diện cho một ký tự](#5)
-[6. Ký tự đặc biệt cho các từ khóa Regex](#6)
-[7. Regex A hoặc B](#7)
-[8.  Regex kiểm tra chiều dài không giới hạn](#8)
-[9. Capturing value trong Regex](#9)
-[10. Greedy trong Regex](#10)
-[11. Một số ví dụ về áp dụng Regex vào Graylog](#11)
+ - [1. Khai báo chuỗi Regex](#1)
+ - [2. Kí tự bắt đầu và kết thúc của chuỗi Regex](#2)
+ - [3. Regex phạm vi của chuỗi](#3)
+ - [4. Xác định chiều dài của chuỗi Regex](#4)
+ - [5. Regex đại diện cho một ký tự](#5)
+ - [6. Ký tự đặc biệt cho các từ khóa Regex](#6)
+ - [7. Regex A hoặc B](#7)
+ - [8.  Regex kiểm tra chiều dài không giới hạn](#8)
+ - [9. Capturing value trong Regex](#9)
+ - [10. Greedy trong Regex](#10)
+ - [11. Một số ví dụ về áp dụng Regex vào Graylog](#11)
 ## Giới thiệu chung
 Regular Expression (Regex) hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
