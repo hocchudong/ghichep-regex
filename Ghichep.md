@@ -1,5 +1,6 @@
 #Một số ghi chép chung về các quy tắc của Regex và ví dụ.
 ###Mục lục
+ - [Giới thiệu chung](#gt)
  - [1. Khai báo chuỗi Regex](#1)
  - [2. Kí tự bắt đầu và kết thúc của chuỗi Regex](#2)
  - [3. Regex phạm vi của chuỗi](#3)
@@ -11,6 +12,8 @@
  - [9. Capturing value trong Regex](#9)
  - [10. Greedy trong Regex](#10)
  - [11. Một số ví dụ về áp dụng Regex vào Graylog](#11)
+
+<a name="gt"></a>
 ## Giới thiệu chung
 Regular Expression (Regex) hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
