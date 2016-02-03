@@ -101,11 +101,18 @@ Kết quả trả về là `Match`, tuy nhiên như vậy không đúng bởi tr
 ####7. Regex A hoặc B
 
 Khi cần kiểm tra subject='A' hoặc subject='B' thì ta cần dùng dấu `|`, biểu diễn mối quan hệ `OR`
-<img src="http://i.imgur.com/1mEj6zW.png">
 
-Khi muốn gom nhóm Regex lại cho dễ nhìn, ta để pattern như sau : pattern="(A|B)" . Regex này có ý nghĩa là ta gom nhóm A hoặc nhóm B lại thành 1 nhóm : <img src="http://i.imgur.com/C0kNfUz.png">
-
+Ví dụ : Khi muốn match với 2 từ tỏng ô vuông đỏ, và bỏ qua các từ còn lại, pattern sẽ là : <img src="http://i.imgur.com/BrGwkeR.png">
 ####8.  Regex kiểm tra chiều dài không giới hạn
+
+*Các ký tự Regex đặc biệt:*
+
+ - \d - Chữ số bất kỳ ~ [0-9]
+ - \D - Ký tự bất kỳ không phải là chữ số (ngược với \d) ~ [^0-9]
+ - \w - Ký tự từ a-z, A-Z, hoặc 0-9 ~ [a-zA-Z0-9]
+ - \W - Ngược lại với \w (nghĩa là các ký tự không thuộc các khoảng: a-z, A-Z, hoặc 0-9) ~[^a-zA-Z0-9]
+ - \s - Khoảng trắng (space)
+ - \S - Ký tự bất kỳ không phải là khoảng trắng.
 
 Sử dụng các ký tự `*`, `+`, `?` để thiết lập chiều dài cho chuỗi.
 
@@ -132,19 +139,21 @@ Phân tích pattern :
  - `files? ` : Sẽ match với từ `file` với một hoặc không có ký tự `s` và ký tự khoảng trống ` `
  - `found\?`  : Sẽ match với từ `found` và ký tự `?`, bởi ký tự `?` sẽ bị hiểu như một ký tự đặc biệt của regex nên ta phải thêm `\` ở đằng trước để tránh bị regex hiểu nhầm
 
-####9. Regex phủ định - NOT
-Ta dùng ký tự `^` để phủ định một Regex : <img src="http://i.imgur.com/73VbYcu.png">
-Kết quả sẽ match với những ký tự không phải là số trong 2 ký tự của chuỗi subject.
+####9. Capturing value trong Regex
 
-####10. Capturing value trong Regex
+<li>Caturing value, hiểu đơn giản là các bắt các giá trị muốn có một subject.</li>
 
-Caturing value, hiểu đơn giản là các bắt các giá trị muốn có một subject, ví dụ như ta có chuỗi pattern="([a-z]+)([0-9]+)" 
+Ví dụ 1 : Ta có chuỗi pattern="([a-z]+)([0-9]+)" 
 <img src="http://i.imgur.com/8JB7spj.png"> 
 
 Pattern này sẽ có 3 phần : 
  - Phần 1 : ([a-z]+)([0-9]+) sẽ bắt tất cả dòng `manhdv1994`
  - Phần 2 : ([a-z]+) sẽ bắt tất cả các ký tự chữ cái thường.
  - Phần 3 : ([0-9]+) sẽ bắt cả các số đằng sau các chữ cái thường.
+ <li> Caturing Sub-group 
+Ví dụ khi ta muốn bắt 2 nhóm như trong hình, pattern sẽ là : <img src="http://i.imgur.com/ZWlxqcY.png">
+ 
+Ví dụ 2 : Khi ta chỉ muốn bắt phần tên của file, pattern sẽ là : <img src="http://i.imgur.com/thIxT7B.png">
 ####11. Greedy trong Regex
 
 Trước khi có một định nghĩa về Greedy, tôi sẽ lấy một ví dụ sau về việc tìm chuỗi bắt đầu bằng `h` và kết thúc bằng `o`
