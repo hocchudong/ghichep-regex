@@ -3,12 +3,12 @@
 ####[2. Kí tự bắt đầu và kết thúc của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#2-kí-tự-bắt-đầu-và-kết-thúc-của-chuỗi-regex-1)
 ####[3. Regex phạm vi của chuỗi](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#3-regex-phạm-vi-của-chuỗi-1)
 ## Giới thiệu chung
-Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. Ngoài cái tên gọi Regular Expression ra thì nó còn có thể viết tắt thành RegEx.
+Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
-RegEx rất hữu dụng trong việc trích dẫn thông tin từ văn bản như là code, logs file,... và được ứng dụng
+Regex rất hữu dụng trong việc trích dẫn thông tin từ văn bản như là code, logs file,... và được ứng dụng
 vào nhiều service ( Graylog, Zabbix... ).
 
-Tài liệu để học về RegEx có thể tham khảo trên trang : http://regexone.com/ hoặc
+Tài liệu để học về Regex có thể tham khảo trên trang : http://regexone.com/ hoặc
 
 http://freetuts.net/cac-quy-tac-regular-expression-can-ban-65.html
 
@@ -52,23 +52,23 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
 
 ####3. Regex phạm vi của chuỗi
 
-  *Regex kiểm tra chữ cái in thường* : <img src="http://i.imgur.com/mk29XdZ.png">
+  <li>Regex kiểm tra chữ cái in thường</li> : <img src="http://i.imgur.com/mk29XdZ.png">
   
-  *Regex kiểm tra chữ cái in hoa* : <img src="http://i.imgur.com/exTIDyY.png">
+  <li>Regex kiểm tra chữ cái in hoa</li> : <img src="http://i.imgur.com/exTIDyY.png">
   
    Khi thay chuỗi test string bằng chữ in hoa, kết quả trả về sẽ là : <img src="http://i.imgur.com/exTIDyY.png">
   
-  *Regex kiểm tra một ký tự là chữ số* : <img src="http://i.imgur.com/80g4xwk.png">
+  <li>Regex kiểm tra một ký tự là chữ số</li> : <img src="http://i.imgur.com/80g4xwk.png">
   
-  *Regex kiểm một chữ cái in hoa hoặc in thường* : <img src="http://i.imgur.com/ERwSx6S.png">
+  <li>Regex kiểm một chữ cái in hoa hoặc in thường</li> : <img src="http://i.imgur.com/ERwSx6S.png">
   
-  *Regex kiểm tra một ký tự là số, chữ cái in hoa hoặc thường* : <img src="http://i.imgur.com/nKhBbUn.png">
+  <li>Regex kiểm tra một ký tự là số, chữ cái in hoa hoặc thường</li> : <img src="http://i.imgur.com/nKhBbUn.png">
   
   Trong chuỗi subject, có một ký tự `"2"` nên kết quả trả về là `"Match"`
   
   Ví dụ : Khi ta muốn Match với cả 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại thì pattern sẽ được viết dưới dạng như sau : <img src="http://i.imgur.com/yne1i6K.png">
   
-   *Regex kiểm tra ký tự có nằm trong dãy hay không* : <img src="http://i.imgur.com/DhkxgNN.png">
+   <li>Regex kiểm tra ký tự có nằm trong dãy hay không</li> : <img src="http://i.imgur.com/DhkxgNN.png">
    hoặc khi ta đặt dấu `^` ở trước chuỗi, thì regex sẽ mang tính phủ định : <img src="http://i.imgur.com/MniYaOZ.png">
    
    Biểu thức sẽ Match với ký tự đầu tiên không phải là các ký tự `a` `2` `b`
