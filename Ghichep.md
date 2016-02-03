@@ -4,11 +4,11 @@
 ####[3. Regex phạm vi của chuỗi](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#3-regex-phạm-vi-của-chuỗi-1)
 ####[4. Xác định chiều dài của chuỗi Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#4-xác-định-chiều-dài-của-chuỗi-regex-1)
 ####[5. Regex đại diện cho một ký tự](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#5-regex-đại-diện-cho-một-ký-tự-1)
-####[6. Ký tự đặc biệt cho các từ khóa Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#6-ký-tự-đặc-biệt-cho-các-từ-khóa-regex)
-####[7. Regex A hoặc B](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#7-regex-a-hoặc-b)
-####[8.  Regex kiểm tra chiều dài không giới hạn](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#8--regex-kiểm-tra-chiều-dài-không-giới-hạn)
-####[9. Capturing value trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#9-capturing-value-trong-regex)
-####[10. Greedy trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#10-greedy-trong-regex)
+####[6. Ký tự đặc biệt cho các từ khóa Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#6-ký-tự-đặc-biệt-cho-các-từ-khóa-regex-1)
+####[7. Regex A hoặc B](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#7-regex-a-hoặc-b-1)
+####[8.  Regex kiểm tra chiều dài không giới hạn](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#8--regex-kiểm-tra-chiều-dài-không-giới-hạn-1)
+####[9. Capturing value trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#9-capturing-value-trong-regex-1)
+####[10. Greedy trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#10-greedy-trong-regex-1)
 ## Giới thiệu chung
 Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
