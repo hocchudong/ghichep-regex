@@ -9,6 +9,7 @@
 ####[8.  Regex kiểm tra chiều dài không giới hạn](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#8--regex-kiểm-tra-chiều-dài-không-giới-hạn-1)
 ####[9. Capturing value trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#9-capturing-value-trong-regex-1)
 ####[10. Greedy trong Regex](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#10-greedy-trong-regex-1)
+####[11. Một số ví dụ về áp dụng Regex vào Graylog](https://github.com/manhdinh/ghichep-regex/blob/master/Ghichep.md#11-một-số-ví-dụ-về-áp-dụng-regex-vào-graylog-1)
 ## Giới thiệu chung
 Regular Expression hay còn gọi là biểu thức chính quy được dùng để xử lý chuỗi nâng cao thông qua biểu thức riêng của nó, những biểu thức này sẽ có những nguyên tắc riêng và bạn phải tuân theo nguyên tắc đó thì biểu thức của bạn mới hoạt động được. 
 
