@@ -64,6 +64,11 @@ Kết quả trả về sẽ là *No match* vì chuỗi subject đã bị thêm n
   
   Trong chuỗi subject, có một ký tự `"2"` nên kết quả trả về là `"Match"`
   
+  Ví dụ : Khi ta muốn Match với cả 3 từ trong ô vuông đỏ, và bỏ qua các từ còn lại thì pattern sẽ được viết như thế nào? 
+  <img src="http://i.imgur.com/q7VABQZ.png">
+  
+  Pattern cần viết sẽ có dạng như sau : <img src="http://i.imgur.com/tU8Jc0n.png">
+  
 ####4. Xác định chiều dài của chuỗi Regex
  *Regex kiểm tra chữ cái thường dài 5-10 ký tự* : <img src="http://i.imgur.com/fSr3fBF.png">
  
