@@ -171,3 +171,15 @@ Trước khi có một định nghĩa về Greedy, tôi sẽ lấy một ví d�
 <img src="http://i.imgur.com/akD4IWH.png">
 
 Ý tưởng ban đầu của regex này sẽ là lấy được cụm `ell` ở trong từ `hello`, tuy nhiên ở chữ `chao` lại có 1 ký tự `o`, nên chuỗi regex sẽ hiểu là lấy chuỗi bắt đầu bằng `h` của hello, và kết thúc bằng `o` của `chao`, muốn chỉ lấy được từ `ell` ta phải đặt chuỗi pattern như sau : <img src="http://i.imgur.com/gmYBPdD.png">
+
+####11. Một số ví dụ về áp dụng Regex vào Graylog
+
+*Khi muốn bắt thông tin về id=9733 của sshd như trong hình sau:*
+<img src="http://i.imgur.com/ULLQiN8.png">
+*Khi muốn bắt thông tin về user đăng nhập ssh:*
+<img src="http://i.imgur.com/6iPV4cP.png">
+*Khi muốn bắt thông tin về ip đăng nhập ssh:*
+<img src="http://i.imgur.com/8CxpG5e.png">
+*Khi muốn bắt thông tin về port đăng nhập ssh:*
+<img src="http://i.imgur.com/6S5xDgQ.png">
+
